@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> PetStop </title>
+
+<script type="text/javascript" src="./javascript/scripts.js"></script>  
+
+<link rel ="stylesheet"
+  type="text/css"
+  href="./styles/main.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+
+<header id="header">
+		
+			<center><a><img id="logo" src="images/ps1.png" alt="Company Logo"/></a></center>
+	
+	</header>
+	<center><p class = "mclass"><big><strong><q> Where Your Furry Friend Is Always Welcome.</q></strong></big><small><sup>TM</sup></small></p></center>
+	
+<div>
+<center><table>
+    
+	<tr>
+    <td><a href= "index.html"><button type = "" style = "background-color: Transparent; border: none;"<a><img id="logo" src="images/home.png" alt="home"/></a></button></a></td>
+    <td><a href= "html/Products.html"><button type = "" style = "background-color: Transparent; border: none;"<a><img id="logo" src="images/PRODUCTS.png" alt="Products"/></a></button></a></td>
+    <td><a href= "html/aboutUs.html"><button type = "" style = "background-color: Transparent; border: none;"<a><img id="logo" src="images/ABOUT.png" alt="Products"/></a></button></a></td>
+    <td><a href= "html/contact.html"><button type = "" style = "background-color: Transparent; border: none;"<a><img id="logo" src="images/contact.png" alt="contact"/></a></button></a></td>
+  </tr>
+  </table></center>
+  </div>
+
+  <center>
+ <form>
+  <div class ="fast">
+    <p> What is the fastest animal?</p>
+  <input type="radio" id="ostrich" name="rbutton" value="Ostrich">
+  <label for="Ostrich">Ostrich</label><br>
+  <input type="radio" id="cheetah" name="rbutton" value="Cheetah">
+  <label for="Cheetah">Cheetah</label><br>
+  <input type="radio" id="greyhound" name="rbutton" value="Greyhound">
+  <label for="Greyhound">Greyhound</label><br>
+  <button onclick = "pressed()" id="btn1">Submit</button>
+  </div>
+  </form>
+  </center>
+  <br><br>
+    <center><form>
+      <b> What is your dogs favorite food?
+      </b>
+      <select id = "myList" onchange = "mydropbox()" >
+      <option> ---pick a selection--- </option>
+      <option> Wellness Complete </option>
+      <option> Instinct </option>
+      <option> Jinx </option>
+      <option> Nature's Logic </option>
+      </select>
+      <p> Your selected favorite food is:</p>
+      <input type = "text" id = "favourite" size = "20" </p></form></center>
+    
+<center><figure>
+<video width="320" height="290" controls>
+  <source src="videos/me.mp4" type="video/mp4">
+  <figcaption> Moose at the park </figcaption>
+</video>
+</figure>
+</center>
+
+<center><div>
+  <p class = "emailp">Enter your email to sign up for our mailing list!
+<input type = "text" id = "email" size = "20"><br>
+<button onclick = "validateEmail()" id="btn2">Submit</button>
+</p>
+</div></center>
+
+<div style="background-color: orange;">
+  <p><small>&copy; Copyright 2023</small></p>
+</div>
+
+</body>
+
+</html>
