@@ -1,0 +1,31 @@
+body{
+    background-color: #DEB887;     
+}
+
+p.mclass{
+    color:blue;
+}
+
+div.dclass{
+    background-color: blue;
+    color: orange;
+}
+
+button.bclass{
+    background-color:transparent;
+    border:none;
+}
+
+#usr{
+    padding-left:10px;
+}
+
+div.movie
+{
+    padding-left: 200px;
+}
+
+p.myclass{
+    font-family: 'Roboto', sans-serif;
+}
+
